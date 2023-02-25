@@ -74,6 +74,6 @@ class GoogleAnalyticsPlugin extends Omeka_Plugin_AbstractPlugin
     }
     public function hookConfigForm()
     {
-       include GOOGLE_ANALYTICS_PLUGIN_DIR . '/config_form.php';
+       include GOOGLE_ANALYTICS_PLUGIN_DIR . '/config_form_user_frontend.php';
     }
 }
